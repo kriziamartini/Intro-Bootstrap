@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="icon" type="image/x-icon" href="images/Shinee logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(31,206,202);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/Shinee logo.jpg" alt="" style="height: 60px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#" style="color: white;"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Members" style="color: white;" ><b>Members</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Albums" style="color: white;"><b>Albums</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery" style="color: white;"><b>Gallery</b></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" style="background-color: white;">
+                <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+    <!-- carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/Shinee 1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/Shinee 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Shinee 3.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- end carousel -->
+    <!-- members-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="Members" class="text-center pd-5 mt-6 mb-5">Members</h2>
+
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/Group.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">SHINee (샤이니)</h5>
+                  <p class="card-text"><b>Debut Date:</b> May 25, 2008
+                    <br>
+                    <b>Fandom Name:</b> SHINee World (Shawol)
+                    <br>
+                    <b>Official Fandom Color:</b> Pearl Aqua
+                  </p>
+                  <a href="https://www.instagram.com/shinee/" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@shinee
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Onew.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">Onew</h5>
+                  <p class="card-text"><b>Stage Name:</b> Onew (온유)
+                    <br>
+                    <b>Birth Name:</b> Lee Jin Ki (이진기)
+                    <br>
+                    <b>Position:</b> Leader, Main Vocalist
+                    <br>
+                    <b>Birthday:</b> December 14, 1989
+                  </p>
+                  <a href="https://www.instagram.com/dlstmxkakwldrl/" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@dlstmxkakwldrl
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                 </a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/Key.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">Key</h5>
+                  <p class="card-text"><b>Stage Name:</b> Key (키)
+                    <br>
+                    <b>Birth Name:</b> Kim Ki Bum (김기범)
+                    <br>
+                    <b>Position:</b> Lead Rapper, Lead Dancer, Sub Vocalist
+                    <br>
+                    <b>Birthday:</b> September 23, 1991
+                  </p>
+                  <a href="https://www.instagram.com/bumkeyk/" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@bumkeyk
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="images/Minho.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">Minho</h5>
+                  <p class="card-text"><b>Stage Name:</b> Minho (민호)
+                    <br>
+                    <b>Birth Name:</b> Choi Min Ho (최민호)
+                    <br>
+                    <b>Position:</b> Main Rapper, Sub Vocalist, Visual
+                    <br>
+                    <b>Birthday:</b> December 9, 1991
+                  </p>
+                  <a href="https://www.instagram.com/choiminho_1209" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@choiminho_1209
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Taemin.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">Taemin</h5>
+                  <p class="card-text"><b>Stage Name:</b> Taemin (태민)
+                    <br>
+                    <b>Birth Name:</b> Lee Tae Min (이태민)
+                    <br>
+                    <b>Position:</b> Main Dancer, Sub Vocalist, Maknae
+                    <br>
+                    <b>Birthday:</b> July 18, 1993
+                  </p>
+                  <a href="https://www.instagram.com/xoalsox/?hl=en" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@xoalsox
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Jonghyun.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="text-center card-title">Jonghyun</h5>
+                  <p class="card-text"><b>Stage Name:</b> Jonghyun (종현)
+                    <br>
+                    <b>Birth Name:</b> Kim Jong Hyun (김종현)
+                    <br>
+                    <b>Position:</b> Main Vocalist
+                    <br>
+                    <b>Birthday:</b> April 8, 1990
+                  </p>
+                  <a href="https://www.instagram.com/jonghyun.948/?hl=en" class="btn btn-primary" style="background-color: rgb(31,206,202); border-color: rgb(31,206,202);">@jonghyun.948
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                </a>
+                </div>
+              </div>
+        </div>
+    </div>
+     </div>
+    <!-- end members-->
+    <!-- albums -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="Albums" class="text-center pd-5 mt-6 mb-5">Albums</h2>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album-12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">The Shinee World</h5>
+                      <p class="card-text"><b>Released Date:</b> August 28, 2008</p>
+                      <p class="card-text"><small class="text-body-secondary">1st Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Married to the Music</h5>
+                        <p class="card-text"><b>Released Date:</b> August 3, 2015</p>
+                        <p class="card-text"><small class="text-body-secondary">4th Repackage Album</small></p>
+                      </div>
+                      <img src="images/Album-6.webp" class="card-img-bottom" alt="...">
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">Amigo</h5>
+                      <p class="card-text"><b>Released Date:</b> October 29, 2008</p>
+                      <p class="card-text"><small class="text-body-secondary">1st Repackage Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center card-title">1 of 1</h5>
+                      <p class="card-text"><b>Released Date:</b> October 5, 2016</p>
+                      <p class="card-text"><small class="text-body-secondary">5th Album</small></p>
+                      </div>
+                      <img src="images/Album-5.jpg" class="card-img-top" alt="...">
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album-11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">Lucifer</h5>
+                      <p class="card-text"><b>Released Date:</b> July 19, 2010</p>
+                      <p class="card-text"><small class="text-body-secondary">2nd Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Story of Light</h5>
+                      <p class="card-text"><b>Released Date:</b> May 28, 2018</p>
+                      <p class="card-text"><small class="text-body-secondary">6th Album</small></p>
+                    </div>
+                    <img src="images/Album-4.png" class="card-img-top" alt="...">
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">Hello</h5>
+                      <p class="card-text"><b>Released Date:</b> May 18, 2015</p>
+                      <p class="card-text"><small class="text-body-secondary">2nd Repackage Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Don't Call Me</h5>
+                      <p class="card-text"><b>Released Date:</b> February 22, 2021</p>
+                      <p class="card-text"><small class="text-body-secondary">7th Album</small></p>
+                    </div>
+                    <img src="images/Album-3.png" class="card-img-bottom" alt="...">
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">The Misconceptions of Us</h5>
+                      <p class="card-text"><b>Released Date:</b> August 8, 2013</p>
+                      <p class="card-text"><small class="text-body-secondary">3rd Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="text-center card-title">Atlantis</h5>
+                      <p class="card-text"><b>Released Date:</b> April 12, 2021</p>
+                      <p class="card-text"><small class="text-body-secondary">7th Repackage Album</small></p>
+                    </div>
+                    <img src="images/Album-2.jpg" class="card-img-bottom" alt="...">
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <img src="images/Album-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">Odd</h5>
+                      <p class="card-text"><b>Released Date:</b> May 18, 2015</p>
+                      <p class="card-text"><small class="text-body-secondary">4th Album</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="text-center card-title">Hard</h5>
+                      <p class="card-text"><b>Released Date:</b> June 26, 2023</p>
+                      <p class="card-text"><small class="text-body-secondary">8th Album</small></p>
+                    </div>
+                    <img src="images/Album-1.jpg" class="card-img-bottom" alt="...">
+                  </div>
+            </div>
+        </div>
+</div>
+<!-- end albums -->
+<!-- gallery -->
+<br>
+<br>
+<br>
+<br>
+<h2 id="Gallery" class="text-center pd-5 mt-6 mb-5">Gallery</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="images/Gallery-1.jpg" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+        <div class="col">
+            <img src="images/Gallery-2.jpg" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+        <div class="col">
+            <img src="images/Gallery-3.png" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+        <div class="col">
+            <img src="images/Gallery-4.jpg" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+        <div class="col">
+            <img src="images/Gallery-5.jpg" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+        <div class="col">
+            <img src="images/Gallery-6.jpg" class="img-fluid" alt=". . ." style="height: 150px;">
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- end gallery -->
+<footer>
+    <p class="text-center" style="height: 100px; background-color: rgb(31,206,202); color: white;">
+        <br>
+        <b>2023 © Krizia Enage</b>
+        <br>
+        <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook" style="color: white;"></i>
+        </a>
+        &nbsp;
+        <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram" style="color: white;"></i>
+        </a>
+        &nbsp;
+        <a href="https://mail.google.com/mail/u/0/">
+            <i class="fa-solid fa-envelope" style="color: white;"></i>
+        </a>
+    </p>
+</footer>
+<script src="https://kit.fontawesome.com/64b84acb0a.js" crossorigin="anonymous"></script>
+</body>
+</html>
